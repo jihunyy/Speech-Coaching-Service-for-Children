@@ -1,14 +1,3 @@
-# Jasmine
-CAU 2021-2 Capstone Design Project Repository   
-Check more Detail at [Link](http://www.swaicau.com/bbs/board.php?bo_table=program8&wr_id=25)   
-Check out Presentation at [Link](https://youtu.be/AJ_jO4Orc58)
-
-## 👪 Teammates
-- Team name: **자신만만 스피치 비타민, 자스민(Jasmine)**
-- **Seunguk Yu**: School of Computer Science & Engineering in CAU   
-- **Bolim Lee**: School of Computer Science & Engineering in CAU   
-- **Sanghwa Lee**: School of Computer Science & Engineering in CAU
-
 ## 💡 Prototype
 **Overall Flow**
 
