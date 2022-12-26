@@ -1,0 +1,236 @@
+.report{
+    background: url(../img/download_forest1.jpg.jpeg) no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.body {
+    padding-top: 1%;
+    padding-bottom: 5rem;
+    height: 85vh;
+    overflow: hidden;
+}
+
+#report_question {
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding: 0;
+    margin: 0;
+    /* width: 100%; */
+    overflow: hidden;
+}
+#report_date{
+    padding-left: 300px;
+}
+#report_time{
+    padding-left: 120px;
+}
+
+.content{
+    /* background: #B4C6A6; */
+    background: white;
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 30px;
+}
+
+#finish_ctn{
+    background: #B4C6A6 !important;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.wordcloud {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.wcImg{
+    margin: -120px auto -100px -20px;
+    width: 450px;
+    height: 450px;
+}
+.scImg{
+    margin: -50px auto 0 auto;
+    width: 450px;
+    height: 450px;
+}
+#box3img{
+    margin-top: -50px;
+    margin-bottom: 0;
+}
+#rank-box3{
+    margin-top: 100px;
+}
+.finish-box{
+    margin: 50px auto 10px auto;
+}
+.finish-span{
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'CookieRunOTF-Bold';
+    align-items: center;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+.flower-rate {
+    margin: 30px auto;
+}
+.mini-title {
+    border: #31859C 1px solid;
+    border-radius: 10px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'CookieRunOTF-Bold';
+    align-items: center;
+    margin: 50px auto 50px auto;
+    padding: 0 10px;
+}
+.subCmt{
+    margin: 0px auto 0 auto;
+    background: #B4C6A6;
+    height: 270px;
+}
+
+.rank{
+    /* background-color: blanchedalmond; */
+    width: 30%;
+    margin-left: -30px;
+}
+.rank ul{
+    padding: 0 0 0 20px;
+}
+.rank li{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: 250;
+    font-family: 'HSYuji-Regular';
+    margin: 25px -20px;
+    overflow: auto;
+}
+#box1 {
+    /* background-color: hotpink; */
+}
+
+#box2 {
+    /* background-color: gold; */
+}
+
+.secondrow {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    flex-direction: row;
+    justify-content:left;
+    /* background-color: cornsilk; */
+    margin: 70px 0 0 0;
+}
+
+.graph{
+    height: 100%;
+    width: 41%;
+    margin: 0 auto;
+    border: lightgray 3px solid ;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+
+.summary{
+    height: 100%;
+    width: 41%;
+    margin: 0 auto;
+    border: lightgray 3px solid ;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+
+.thirdrow {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    flex-direction: column;
+    justify-content:left;
+    /* background-color: cornsilk; */
+    margin: 70px 0 0 20px;
+    padding: 0 4%;
+}
+
+.third-finish{
+    margin: 10px 0 0 0;
+}
+
+#feedback-title{
+    margin-left: -3%;
+}
+
+.feedback-content {
+    border: white 3px solid ;
+    border-radius: 10px;
+    width: 90%;
+    overflow: auto;
+    font-size: 20px;
+    font-family: 'HSYuji-Regular';
+    text-align: left;
+    padding: 20px;
+    line-height: 180%;
+    color: black;
+}
+
+.finish-feedback-content{
+    padding-bottom: 10px;
+}
+#finish-fb{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.scoreboard{
+    width: 100%;
+    padding: 3rem 4% 10rem 4%;
+}
+
+.totalscore {
+    background-color: #D9AFE3;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    width:100%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    font-family: 'CookieRunOTF-Bold';
+    border-radius: 20px;
+}
+
+.subscore{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-family: 'CookieRunOTF-Bold';
+}
+
+#back {
+    width: 70%;
+}
+
+.button-text {
+    font-size: 20px;
+}

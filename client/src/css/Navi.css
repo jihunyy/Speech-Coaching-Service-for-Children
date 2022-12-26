@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Noto+Sans+KR:wght@400;500;700&family=Poor+Story&display=swap');
+.logoImg {
+    width:130px;
+    height:70px;
+    float:left;
+    margin-top: -15px;
+}
+.li-a{
+    white-space: pre;
+    border: none;
+    background: transparent;
+    padding: 15px 25px;
+    font-family: 'ImcreSoojin';
+}
+
+.bar{
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}

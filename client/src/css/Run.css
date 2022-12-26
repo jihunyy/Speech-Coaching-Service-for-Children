@@ -1,0 +1,145 @@
+.run {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(../img/download_forest1.jpg.jpeg) no-repeat ;
+    background-size: cover;
+    overflow: hidden;
+}
+.form {
+    font-family: 'CookieRunOTF-Bold';
+}
+
+.simpleNavi img{
+    width: 156px;
+    height: 80px;
+}
+
+.face{
+    width: 63vw;
+    /* height: 80vh; */
+    height: 85vh;
+    /* padding: 1% 0; */
+    padding: auto;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: #B4C6A6;
+}
+.facedetector #webcam{
+    /* float: center; */
+    /* background-color:#999999; */
+    transform: scaleX(-1);
+    margin: -190px auto;
+    /* margin-left: 10px; */
+    width: 63vw;
+    height: 73vh;
+}
+
+.question {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border: none;
+    background-color: #C54AC7;
+    border-radius: 10px;
+}
+
+#run_question{
+    width: 100%;
+    padding: 0;
+}
+
+.question h2{
+    height:inherit;
+    width: fit-content;
+    margin:auto;
+    line-height: 80px;
+    color: papayawhip;
+    font-family: 'CookieRunOTF-Bold';
+}
+
+.question h1{
+    height:inherit;
+    width:fit-content;
+    margin:0;
+    padding-left: 10%;
+    line-height: 80px;
+    color: papayawhip;
+    font-family: 'CookieRunOTF-Bold';
+}
+
+#FD {
+    position: relative;
+}
+.animal {
+    position: absolute;
+    z-index: 1;
+}
+#sloth {
+    width: 25vw;
+    height: 25vw;
+    margin-left: 0;
+}
+#koala {
+    width: 25vw;
+    height: 25vw;
+}
+.facedetector{
+    position: absolute;
+    
+}
+
+.text{
+    position: absolute;
+    color: papayawhip;
+    font-family: 'CookieRunOTF-Bold';
+}
+
+#sloth-text {
+    margin-top: 30px;
+    font-size: 55px;
+    color: #c43abb;
+    z-index: 0;
+    padding: 0 10px;
+    border-radius: 10px;
+    background: rgba(254, 254, 254, 0.5);
+    white-space: pre;
+}
+
+#koala-text {
+    font-size: 3.5vw;
+    padding: 5px 15px;
+    /* color: #C68B59; */
+    color: #c43abb;
+    background: rgba(254, 254, 254, 0.5);
+    border-radius: 10px;
+}
+
+
+
+.stopButton {
+    width: 910px;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    height: 60px;
+    position: fixed;
+    bottom: 3%;
+}
+
+.stopButton button{
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: #C54AC7;
+    color: papayawhip;
+    width: 120px;
+    height: 60px;
+    border: none;
+    font-size: 2rem;
+    border-radius: 5px;
+    position: static;
+}
